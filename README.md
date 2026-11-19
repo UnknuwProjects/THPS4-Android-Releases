@@ -53,6 +53,14 @@ Releases here use stable semantic versioning — `MAJOR.MINOR.PATCH`
 Development builds (the `beta` track) are tested privately and are not
 published here; a build is published once it is considered stable.
 
+## Bug reports
+
+Found a bug? Please report it on the
+[Issues page](https://github.com/UnknuwProjects/THPS4-Android-Releases/issues)
+with your phone model, your Android version, and what happened. If you can,
+attach the file `thps4.log` from the `THPS4/logs` folder on your storage —
+that log makes most bugs fixable.
+
 ## Credits & support
 
 Port by **UNKNUW** — [github.com/UnknuwProjects](https://github.com/UnknuwProjects)
@@ -87,3 +95,9 @@ pemeriksa pembaruan.
 Syarat: Android 10+, perangkat ARM64, dan salinan game milikmu sendiri.
 Cara pasang: unduh APK dari [Releases](../../releases), pasang, taruh data
 game/ISO di folder `THPS4`, lalu **Launch Game**.
+
+Menemukan bug? Laporkan di
+[halaman Issues](https://github.com/UnknuwProjects/THPS4-Android-Releases/issues)
+dengan model HP, versi Android, dan kejadiannya. Kalau bisa, lampirkan file
+`thps4.log` dari folder `THPS4/logs` di penyimpananmu — log itu membuat
+sebagian besar bug bisa diperbaiki.
