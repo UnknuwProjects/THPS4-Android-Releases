@@ -71,7 +71,9 @@ directly. Two ways around that:
 Whichever route you use, both phones must run the **same version with the
 same mods** and pick the **same level** — 2P Online exchanges controller
 inputs only and each phone runs its own copy of the game, so different
-game data cannot stay in sync.
+game data cannot stay in sync. Rooms in the list are marked when their
+mod set differs from yours, and the panel can download the host's packs
+for you — after one restart your set matches the room's.
 
 ## Versions
 
@@ -140,7 +142,10 @@ Link lewat internet sampai 8 pemain, bertanda LINK di daftar. Apa pun
 jalurnya, kedua HP harus memakai **versi
 yang sama dengan mod yang sama** dan memilih **level yang sama** — 2P Online
 hanya bertukar input tombol dan tiap HP menjalankan salinan game-nya
-sendiri, jadi data game yang berbeda tidak bisa tetap sinkron.
+sendiri, jadi data game yang berbeda tidak bisa tetap sinkron. Room di
+daftar bertanda kalau set mod-nya berbeda dengan milikmu, dan panel bisa
+mengunduhkan paket milik host untukmu — setelah satu kali mulai ulang,
+set mod milikmu sama dengan room.
 
 Menemukan bug? Laporkan di
 [halaman Issues](https://github.com/UnknuwProjects/THPS4-Android-Releases/issues)
