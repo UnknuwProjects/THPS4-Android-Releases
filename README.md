@@ -48,9 +48,9 @@ next version for you.
 
 ## Playing online
 
-**Same Wi-Fi** — System Link and 2P Online work on your local network with
-nothing to set up: one phone hosts, the other joins with the host code from
-the panel's Multiplayer page.
+**Same Wi-Fi** — System Link (up to 8 players) and 2P Online (2 players)
+work on your local network with nothing to set up: one phone hosts, the
+other joins with the host code from the panel's Multiplayer page.
 
 **Different networks** — phones behind carrier NAT cannot reach each other
 directly. Two ways around that:
@@ -58,10 +58,13 @@ directly. Two ways around that:
 - **VPN app (works today):** install Tailscale (free for personal use) on
   both phones and sign both into the same account. Each phone gets a
   `100.x.x.x` address — use the host's as the join target in the panel,
-  exactly like a LAN address.
-- **Relay (in development):** an upcoming update adds a relay mode to the
-  panel — both phones connect out to a relay server and meet with a
-  session code, no extra app needed.
+  exactly like a LAN address. System Link over the VPN holds up to
+  8 players, same as on a LAN.
+- **Relay rooms (coming in 1.0.4):** the panel gains Multiplayer Port —
+  public rooms on a relay server. Create a room or join one from the
+  list; no extra app, no codes to trade. A room seats 2 players (it is
+  the game's local 2-player mode, played over the internet), and many
+  rooms can run at the same time.
 
 Whichever route you use, both phones must run the **same version with the
 same mods** and pick the **same level** — 2P Online exchanges controller
@@ -118,15 +121,19 @@ Syarat: Android 10+, perangkat ARM64, dan salinan game milikmu sendiri.
 Cara pasang: unduh APK dari [Releases](../../releases), pasang, taruh data
 game/ISO di folder `THPS4`, lalu **Launch Game**.
 
-**Main online:** satu Wi-Fi — System Link dan 2P Online langsung jalan di
-jaringan lokal: satu HP jadi host, HP lain bergabung dengan kode host dari
-halaman Multipemain di panel. Beda jaringan — HP di balik NAT operator tidak
-bisa saling menjangkau langsung. Dua jalan keluarnya: (1) aplikasi VPN
-seperti Tailscale (gratis untuk pemakaian pribadi) di kedua HP, masuk ke
-akun yang sama, lalu pakai alamat `100.x.x.x` host sebagai target gabung di
-panel, persis seperti alamat LAN; (2) mode relay sedang dikembangkan — nanti
-kedua HP terhubung keluar ke server relay dan bertemu dengan kode sesi,
-tanpa aplikasi tambahan. Apa pun jalurnya, kedua HP harus memakai **versi
+**Main online:** satu Wi-Fi — System Link (sampai 8 pemain) dan 2P Online
+(2 pemain) langsung jalan di jaringan lokal: satu HP jadi host, HP lain
+bergabung dengan kode host dari halaman Multipemain di panel. Beda jaringan
+— HP di balik NAT operator tidak bisa saling menjangkau langsung. Dua jalan
+keluarnya: (1) aplikasi VPN seperti Tailscale (gratis untuk pemakaian
+pribadi) di kedua HP, masuk ke akun yang sama, lalu pakai alamat
+`100.x.x.x` host sebagai target gabung di panel, persis seperti alamat LAN
+— System Link lewat VPN bisa menampung sampai 8 pemain, sama seperti di
+LAN; (2) room relay, hadir di 1.0.4 — panel dapat Multiplayer Port: room
+publik di server relay, buat room atau gabung dari daftarnya, tanpa
+aplikasi tambahan dan tanpa tukar kode. Satu room isinya 2 pemain (itu
+mode 2 pemain lokal game ini, dimainkan lewat internet), dan banyak room
+bisa jalan bersamaan. Apa pun jalurnya, kedua HP harus memakai **versi
 yang sama dengan mod yang sama** dan memilih **level yang sama** — 2P Online
 hanya bertukar input tombol dan tiap HP menjalankan salinan game-nya
 sendiri, jadi data game yang berbeda tidak bisa tetap sinkron.
