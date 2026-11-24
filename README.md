@@ -64,7 +64,9 @@ directly. Two ways around that:
   public rooms on a relay server. Create a room or join one from the
   list; no extra app, no codes to trade. A room seats 2 players (it is
   the game's local 2-player mode, played over the internet), and many
-  rooms can run at the same time.
+  rooms can run at the same time. The same list also carries link
+  rooms: System Link sessions over the internet for up to 8 players,
+  marked LINK in the list.
 
 Whichever route you use, both phones must run the **same version with the
 same mods** and pick the **same level** — 2P Online exchanges controller
@@ -133,7 +135,9 @@ LAN; (2) room relay, hadir di 1.0.4 — panel dapat Multiplayer Port: room
 publik di server relay, buat room atau gabung dari daftarnya, tanpa
 aplikasi tambahan dan tanpa tukar kode. Satu room isinya 2 pemain (itu
 mode 2 pemain lokal game ini, dimainkan lewat internet), dan banyak room
-bisa jalan bersamaan. Apa pun jalurnya, kedua HP harus memakai **versi
+bisa jalan bersamaan. Daftar yang sama juga memuat room link: sesi System
+Link lewat internet sampai 8 pemain, bertanda LINK di daftar. Apa pun
+jalurnya, kedua HP harus memakai **versi
 yang sama dengan mod yang sama** dan memilih **level yang sama** — 2P Online
 hanya bertukar input tombol dan tiap HP menjalankan salinan game-nya
 sendiri, jadi data game yang berbeda tidak bisa tetap sinkron.
