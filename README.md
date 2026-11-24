@@ -19,6 +19,20 @@ shared storage:
 
 The launcher checks the folder for you and shows what it found.
 
+## Is your copy official?
+
+This page is the only place this port is released. Every official build
+is signed with the same certificate, SHA-256 fingerprint:
+
+```
+12474f52e9b6a461bceb2af6882a0543d8dc6e49fc8fcb06ac25de83489885bb
+```
+
+From 1.0.4 the game checks this itself at startup and stops if a copy
+was re-signed. Copies from other sites may carry extra code that was
+added inside them — they are not ours, and whatever such a copy does
+is not part of this project.
+
 ## Features
 
 - The full game: Career, Free Skate, Create-A-Skater, Park Editor, 2-Player split-screen
@@ -124,6 +138,14 @@ pemeriksa pembaruan.
 Syarat: Android 10+, perangkat ARM64, dan salinan game milikmu sendiri.
 Cara pasang: unduh APK dari [Releases](../../releases), pasang, taruh data
 game/ISO di folder `THPS4`, lalu **Launch Game**.
+
+**Apakah salinanmu resmi?** Port ini hanya dirilis di halaman ini. Semua
+build resmi ditandatangani dengan sertifikat yang sama, sidik jari
+SHA-256: `12474f52e9b6a461bceb2af6882a0543d8dc6e49fc8fcb06ac25de83489885bb`.
+Mulai 1.0.4, game memeriksanya sendiri saat menyala dan berhenti kalau
+salinannya ditandatangani ulang. Salinan dari situs lain bisa berisi kode
+tambahan yang diselipkan di dalamnya — itu bukan dari kami, dan apa pun
+yang dilakukan salinan seperti itu bukan bagian dari proyek ini.
 
 **Main online:** satu Wi-Fi — System Link (sampai 8 pemain) dan 2P Online
 (2 pemain) langsung jalan di jaringan lokal: satu HP jadi host, HP lain
