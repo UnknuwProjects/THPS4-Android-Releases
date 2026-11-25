@@ -74,8 +74,8 @@ directly. Two ways around that:
   `100.x.x.x` address — use the host's as the join target in the panel,
   exactly like a LAN address. System Link over the VPN holds up to
   8 players, same as on a LAN.
-- **Relay rooms (coming in 1.0.4):** the panel gains Multiplayer Port —
-  public rooms on a relay server. Create a room or join one from the
+- **Online rooms (coming in 1.0.4):** the panel gains Multiplayer Port —
+  public rooms on a community server. Create a room or join one from the
   list; no extra app, no codes to trade. A room seats 2 players (it is
   the game's local 2-player mode, played over the internet), and many
   rooms can run at the same time. The same list also carries link
@@ -155,8 +155,8 @@ keluarnya: (1) aplikasi VPN seperti Tailscale (gratis untuk pemakaian
 pribadi) di kedua HP, masuk ke akun yang sama, lalu pakai alamat
 `100.x.x.x` host sebagai target gabung di panel, persis seperti alamat LAN
 — System Link lewat VPN bisa menampung sampai 8 pemain, sama seperti di
-LAN; (2) room relay, hadir di 1.0.4 — panel dapat Multiplayer Port: room
-publik di server relay, buat room atau gabung dari daftarnya, tanpa
+LAN; (2) room online, hadir di 1.0.4 — panel dapat Multiplayer Port: room
+publik di server komunitas, buat room atau gabung dari daftarnya, tanpa
 aplikasi tambahan dan tanpa tukar kode. Satu room isinya 2 pemain (itu
 mode 2 pemain lokal game ini, dimainkan lewat internet), dan banyak room
 bisa jalan bersamaan. Daftar yang sama juga memuat room link: sesi System
